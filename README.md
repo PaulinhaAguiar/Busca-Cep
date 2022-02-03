@@ -7,7 +7,7 @@
 <ul>
     <li><a href='https://viacep.com.br'>Link para a api - ViaCep</a></li>
 </ul>
-<br><br>
+<br>
 
 ## 💻 Buscador WEB ##
 
@@ -17,7 +17,12 @@
 <ul>
     <li><a href='https://www.youtube.com/watch?v=oy4cbqE1_qc'>Videoaula - Sujeito Programador</a></li>
 </ul>
-<br><br>
+<p>📸 Resultado final:</>
+<div align='center'>
+    <img src='https://user-images.githubusercontent.com/69828625/152435872-4f5bd010-ff90-4e35-b0c8-bca28e6c8fe7.png' width='800px' heigth='1000px' />
+    <img src='https://user-images.githubusercontent.com/69828625/152436039-fbb7b2cf-29a5-4541-95e9-3ef9874e0d50.png' width='800px' heigth='1000px' />
+</div>
+<br>
 
 ## 📱Buscador Mobile ##
 
