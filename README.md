@@ -7,7 +7,7 @@
     <img alt='License Mit' src='https://img.shields.io/github/license/PaulinhaAguiar/Calculadora?style=flat-square'>
 </p>
 
-Conteúdo
+💠 Conteúdo
 =====================
 
 <p align="center">
