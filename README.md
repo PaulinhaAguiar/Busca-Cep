@@ -67,6 +67,14 @@ Neste aplicativo foi utilizada a seguinte tecnologia:
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+### 📸 Layout
+
+Abaixo, o layout da aplicação:
+
+Home | Resultado da busca 
+:------ | ------:
+<img src='https://user-images.githubusercontent.com/69828625/186768070-8951c51e-ba97-47d0-90f7-f0b9c6288655.jpg' width=230/> | <img src='https://user-images.githubusercontent.com/69828625/186768229-d826016f-2053-4a28-9836-ac3a1ca6b80a.jpg' width=230/>
+
 ---
 
 ## 📝 Licença
