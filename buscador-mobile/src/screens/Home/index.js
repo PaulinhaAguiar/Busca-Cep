@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { SafeAreaView, Text, View, TextInput, TouchableOpacity, Alert } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import FontAwesome from '@expo/vector-icons/FontAwesome5';
@@ -9,7 +9,6 @@ import { theme } from '../../global/theme';
 
 export function Home({navigation}){
     const [input, setInput] = useState('');
-    const [cep, setCep] = useState({});
     const [loading, setLoading] = useState(false);
 
     async function handleSearch(){
@@ -23,13 +22,20 @@ export function Home({navigation}){
     
         try{
             const response = await api.get(`${input}/json`);
-            setCep(response.data);
             setInput('');
             setLoading(false);
-            navigation.navigate('Details', { cep });
+            navigation.navigate('Details', { 
+                cep: response.data.cep,
+                logradouro: response.data.logradouro,
+                complemento: response.data.complemento,
+                bairro: response.data.bairro,
+                localidade: response.data.localidade,
+                uf: response.data.uf
+            });
         }
-        catch{
+        catch(error){
             Alert.alert('Tente novamente','Ocorreu um erro ao buscar o cep...');
+            console.log(error)
             setLoading(false);
             setInput('');
         }
