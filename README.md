@@ -57,8 +57,6 @@ Abaixo, o layout da aplicação:
 
 ## 📱Busca CEP (Mobile)
 
-🚧 EM CONSTRUÇÃO 🚧
-
 A ideia da versão Mobile surgiu após o desenvolvimento da versão WEB.
 
 ### 🛠 Tecnologias
