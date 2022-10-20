@@ -65,6 +65,8 @@ Neste aplicativo foi utilizada a seguinte tecnologia:
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+> Dentro da pasta buscador-mobile há um passo a passo disponível sobre como rodar o aplicativo.
+
 ### 📸 Layout
 
 Abaixo, o layout da aplicação:
